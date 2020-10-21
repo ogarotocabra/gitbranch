@@ -32,3 +32,13 @@ int main()
             else printf("\nN�o existe divis�o por zero");
             break;
 
+        case '*':
+            printf("\nResultado: %.2f", nm1*nm2);
+            break;
+
+        default:
+            printf("\nEntrada de valores inv�lido");
+            break;
+    }
+    return 0;
+}
